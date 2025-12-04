@@ -12,7 +12,7 @@ const { Pool } = pg;
 const client = new SecretsManagerClient({
   region: "ap-southeast-1",
 });
-
+//test
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const caCert = fs.readFileSync(path.join(__dirname, 'cert', 'global-bundle.pem')).toString();
