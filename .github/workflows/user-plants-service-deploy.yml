@@ -10,7 +10,7 @@ on:
 
 env:
   AWS_REGION: ap-southeast-1
-  ECR_REPOSITORY: fsd/users-plants-service
+  ECR_REPOSITORY: fsd/user-plants-service
   ECS_CLUSTER: fsd-ecs-cluster
   ECS_SERVICE: fsd-user-plants-service
   TASK_DEFINITION_FAMILY: fsd-user-plants-service
